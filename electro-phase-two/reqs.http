@@ -1,4 +1,17 @@
 @base = http://localhost:8082
+POST {{base}}/specs
+Content-Type: application/json
+
+{
+    "filters": [
+        {"key": "technicianId", "operation": ">", "value": "2"}
+    ],
+    "page": 0,
+    "size": 5,
+    "sortBy": "username",
+    "sortDir": "asc"
+}
+###
 DELETE {{base}}/delete/1
 ###
 GET {{base}}/1
