@@ -13,6 +13,15 @@ public class Technician {
     private String username;
     private String password;
     private long contact;
+    public Technician() {
+    }
+    public Technician(int technicianId, String technicianName, String username, String password, long contact) {
+        this.technicianId = technicianId;
+        this.technicianName = technicianName;
+        this.username = username;
+        this.password = password;
+        this.contact = contact;
+    }
     public int getTechnicianId() {
         return technicianId;
     }

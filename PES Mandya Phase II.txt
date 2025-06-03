@@ -1,0 +1,38 @@
+PES Mandya Phase II
+
+Check List for project completion:
+1. App Creation with dependencies web, jpa, MySQL, devtools
+2. Entity Implementation
+3. Repository Implementation
+4. Service Implementation
+5. Controller Implementation
+6. Global Exception Handler
+7. Validation
+8. Checking with rest client
+9. Testing using JUnit and Mockito
+10. Security
+
+
+
+
+
+
+
+
+
+https://github.com/razzaksr/PES-Mandya-P1
+https://github.com/razzaksr/PES-Mandya-P2
+
+
+
+Client:
+JSON
+
+API:
+JSON >> POJO
+
+
+
+
+
+
