@@ -8,6 +8,10 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 
+import mandya.two.electro_phase_two.models.SearchCriteria;
+import mandya.two.electro_phase_two.models.Technician;
+import mandya.two.electro_phase_two.models.TechnicianSpecification;
+
 @Service
 public class TechnicianService {
     @Autowired

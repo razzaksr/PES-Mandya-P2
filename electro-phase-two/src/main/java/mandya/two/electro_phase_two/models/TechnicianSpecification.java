@@ -1,4 +1,4 @@
-package mandya.two.electro_phase_two;
+package mandya.two.electro_phase_two.models;
 
 import org.springframework.data.jpa.domain.Specification;
 

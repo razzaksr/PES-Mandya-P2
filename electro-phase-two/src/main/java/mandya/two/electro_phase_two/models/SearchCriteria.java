@@ -1,4 +1,4 @@
-package mandya.two.electro_phase_two;
+package mandya.two.electro_phase_two.models;
 
 public class SearchCriteria {
     private String key;       // Field name (e.g., "price", "category")

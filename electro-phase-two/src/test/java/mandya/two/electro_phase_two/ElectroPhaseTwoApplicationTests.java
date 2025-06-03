@@ -19,6 +19,8 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import mandya.two.electro_phase_two.models.Technician;
+
 @SpringBootTest
 class ElectroPhaseTwoApplicationTests {
 
