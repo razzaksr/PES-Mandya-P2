@@ -1,0 +1,22 @@
+@base = http://localhost:8082/api/laptop
+DELETE {{base}}/remove/Dell vostro 1014
+Authorization: Basic varun:mandya
+###
+GET {{base}}/by/Dell Vostro 1014
+Authorization: Basic varun:mandya
+###
+GET {{base}}/view
+Authorization: Basic victor:salem
+###
+POST {{base}}/new
+Authorization: Basic varun:mandya
+Content-Type: application/json
+
+{
+    "model":"Lenovo Ideapad 9",
+    "ram":8,
+    "ssd":256,
+    "processor":"core i7",
+    "cost":62200,
+    "quantity":10
+}

@@ -1,0 +1,11 @@
+@base = http://localhost:8082/api/users
+
+POST {{base}}/
+Content-Type: application/json
+
+{
+    "username":"Varun",
+    "password":"mandya",
+    "fullName":"Varun TP",
+    "role":"admin"
+}
