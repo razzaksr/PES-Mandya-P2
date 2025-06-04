@@ -36,3 +36,7 @@ Specification, Sorting and Pagination done
 
 
 
+Spring boot security with role based authentication done
+
+
+
