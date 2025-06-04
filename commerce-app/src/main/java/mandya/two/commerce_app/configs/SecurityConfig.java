@@ -26,6 +26,8 @@ public class SecurityConfig {
     @Autowired
     private ShopUsersService service;
 
+    private Logger logger = LoggerFactory.getLogger(SecurityConfig.class);
+
     @Bean
     public PasswordEncoder passwordEncoder(){
         return new BCryptPasswordEncoder();
@@ -40,6 +42,7 @@ public class SecurityConfig {
     }
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity httpSecurity) throws Exception {
+        logger.info("User trying to authenticate");
         httpSecurity.csrf(customizer->customizer.disable());
         httpSecurity.authorizeHttpRequests(request->request.requestMatchers("/api/users/").permitAll());
         httpSecurity.authorizeHttpRequests(request->request.requestMatchers(HttpMethod.OPTIONS, "/**").permitAll());
